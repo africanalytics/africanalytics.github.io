@@ -3425,10 +3425,11 @@
 		z-index: 10001;
 	}
 
-/* 		#header .toggle span {
-			display: none;
-		}
- */
+ /* #header> .toggle {
+			display: none; 
+			font-size: 1rem;
+		} */
+ 
 		#header > .logo {
 			display: inline-block;
 			height: inherit;
@@ -3439,7 +3440,7 @@
 			position: absolute;
 			top: 0;
 		}
-
+		
 			#header > .logo a {
 				font-size: 1.25rem;
 				color: #FFF;
@@ -3452,6 +3453,52 @@
 				color: rgba(255, 255, 255, 0.5);
 			}
 
+		#header > .logoI {
+			display: inline-block;
+			height: inherit;
+			left: 1.25rem;
+			line-height: inherit;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			top: 0;
+		}
+		
+			#header > .logoI a {
+				font-size: 1.70rem;
+				color: #FFF;
+				text-decoration: none;
+			}
+
+			#header > .logoI span {
+				font-weight: 300;
+				font-size: 1rem;
+				color: rgba(255, 255, 255, 0.5);
+			}
+		
+		#header > .logoP {
+			display: inline-block;
+			height: inherit;
+			left: 1.25rem;
+			line-height: inherit;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			top: 0;
+		}
+		
+			#header > .logoP a {
+				font-size: 1.5rem;
+				color: #FFF;
+				text-decoration: none;
+			}
+
+			#header > .logoP span {
+				font-weight: 300;
+				font-size: 1rem;
+				color: rgba(255, 255, 255, 0.5);
+			}
+		
 		#header > a {
 			-moz-transition: color 0.2s ease-in-out;
 			-webkit-transition: color 0.2s ease-in-out;
@@ -3462,6 +3509,7 @@
 			color: inherit;
 			text-decoration: none;
 			color: #FFF;
+			font-size: 1.5rem;
 		}
 
 			#header > a[href="#menu"] {
