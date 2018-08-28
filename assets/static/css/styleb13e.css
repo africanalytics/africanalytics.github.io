@@ -4071,7 +4071,7 @@ iframe[name=google_conversion_frame] {
 @media (min-width: 992px) {
   #footer {
     background-color: #f2f2f2;
-    text-align: left;
+    text-align: center;
   }
   .pre-footer {
     padding: 12px 0;
@@ -4127,7 +4127,7 @@ iframe[name=google_conversion_frame] {
   }
 }
 footer {
-  width: 100%;
+  width: 99%;
   position: absolute;
   bottom: 0;
 }
