@@ -4140,28 +4140,28 @@ body,
   min-height: 100%;
   position: relative;
 }
-@media (max-width: 768px) {
+@media (max-width: 1768px) {
   footer {
-    height: 225px;
+    height: 255px;
   }
   #frame-content {
-    padding-bottom: 225px;
+    padding-bottom: 255px;
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
   footer {
-    height: 0px;
+    height: 160px;
   }
   #frame-content {
-    padding-bottom: 0px;
+    padding-bottom: 160px;
   }
 }
 @media (min-width: 992px) {
   footer {
-    height: 265px;
+    height: 110px;
   }
   #frame-content {
-    padding-bottom: 265px;
+    padding-bottom: 110px;
   }
 }
 .template.gui td,
