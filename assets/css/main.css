@@ -1992,8 +1992,8 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #5AA6ED;
-			color: #ffffff !important;
+			background-color: white;
+			color: black !important;
 		}
 
 			input[type="submit"].special:hover,
@@ -3788,7 +3788,7 @@
 		}
 
 		#banner h1 {
-			font-size: 4rem;
+			font-size: 5rem;
 			margin-bottom: 1rem;
 			color: #FFF;
 		}
@@ -3796,7 +3796,7 @@
 		#banner p {
 			/* color: rgba(255, 255, 255, 0.65); */
 			color: orange;
-			font-size: 1.5rem;
+			font-size: 2rem;
 			margin-bottom: 3rem;
 		}
 
